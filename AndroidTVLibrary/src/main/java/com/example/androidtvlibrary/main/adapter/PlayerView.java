@@ -1348,7 +1348,8 @@ public class PlayerView extends FrameLayout implements AdsLoaderTest.AdViewProvi
             if (isPlayingAd() && controllerHideDuringAds) {
                 hideController();
             } else {
-                maybeShowController(false);
+                //todo
+//                maybeShowController(false);
             }
         }
 
